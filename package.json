@@ -1,6 +1,6 @@
 {
   "name": "salesforcetests",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Package to help with simple JS tests in Salesforce",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,7 @@
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
     "chromedriver": "^91.0.1",
+    "salesforcetests": "^1.0.0",
     "selenium-webdriver": "^4.0.0-beta.4"
   }
 }

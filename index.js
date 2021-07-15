@@ -1,8 +1,11 @@
-import {findElementBy} from "./helpers/utils";
-import {By} from "selenium-webdriver";
+const {findElementBy} = require("./helpers/utils");
 
-export const fillField = async (fieldName, inputString) => {
+const {By} = require("selenium-webdriver");
+
+const fillField = async (fieldName, inputString) => {
     let el = await findElementBy(By.xpath("//label[text()='"+fieldName+"']/following-sibling::div//input"))
     el.sendKeys(inputString);
 }
+
+exports.fillField = fillField;
 

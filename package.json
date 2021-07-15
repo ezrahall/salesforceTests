@@ -1,0 +1,29 @@
+{
+  "name": "salesforcetests",
+  "version": "1.0.0",
+  "description": "Package to help with simple JS tests in Salesforce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezrahall/salesforceTests.git"
+  },
+  "keywords": [
+    "Salesforce",
+    "Test"
+  ],
+  "author": "Ezra Hall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezrahall/salesforceTests/issues"
+  },
+  "homepage": "https://github.com/ezrahall/salesforceTests#readme",
+  "dependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "chromedriver": "^91.0.1",
+    "selenium-webdriver": "^4.0.0-beta.4"
+  }
+}

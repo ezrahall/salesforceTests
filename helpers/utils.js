@@ -1,5 +1,4 @@
-import {Actions, until} from "selenium-webdriver";
-import {By, Key} from "selenium-webdriver";
+import {until, Key} from "selenium-webdriver";
 
 import {driver} from "../factories/driverFactory";
 

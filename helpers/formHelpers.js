@@ -75,7 +75,3 @@ export const assertValidationError = async (expectedError) => {
     await findElementBy(By.xpath(("//h2[text() = 'We hit a snag.']")));
     await findElementBy(By.xpath("//a[text() = '"+expectedError+"']"));
 }
-
-export const  sleep = (time) =>  {
-    return new Promise(resolve => setTimeout(resolve, time));
-}
